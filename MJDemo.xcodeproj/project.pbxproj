@@ -14,6 +14,9 @@
 		2D3274561D7812480013BDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3274541D7812480013BDB1 /* LaunchScreen.storyboard */; };
 		2D3274611D7812480013BDB1 /* MJDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3274601D7812480013BDB1 /* MJDemoTests.swift */; };
 		2D32746C1D7812480013BDB1 /* MJDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D32746B1D7812480013BDB1 /* MJDemoUITests.swift */; };
+		2D32747B1D782DBA0013BDB1 /* WOWRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D32747A1D782DBA0013BDB1 /* WOWRefreshHeader.swift */; };
+		2D32747D1D78308B0013BDB1 /* loadRefresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D32747C1D78308B0013BDB1 /* loadRefresh.gif */; };
+		8D30077B7C765972DA556ED8 /* Pods_MJDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136DFC7B1F235CF263568387 /* Pods_MJDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136DFC7B1F235CF263568387 /* Pods_MJDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3274481D7812480013BDB1 /* MJDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D32744B1D7812480013BDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D32744D1D7812480013BDB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,11 @@
 		2D3274671D7812480013BDB1 /* MJDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D32746B1D7812480013BDB1 /* MJDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJDemoUITests.swift; sourceTree = "<group>"; };
 		2D32746D1D7812480013BDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3274791D7828EA0013BDB1 /* MJDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D32747A1D782DBA0013BDB1 /* WOWRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOWRefreshHeader.swift; sourceTree = "<group>"; };
+		2D32747C1D78308B0013BDB1 /* loadRefresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadRefresh.gif; sourceTree = "<group>"; };
+		A2ECC5D8B4EF57F7275659FE /* Pods-MJDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJDemo/Pods-MJDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F7145F7DD4580F1627EB69BE /* Pods-MJDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJDemo/Pods-MJDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D30077B7C765972DA556ED8 /* Pods_MJDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,8 @@
 				2D32745F1D7812480013BDB1 /* MJDemoTests */,
 				2D32746A1D7812480013BDB1 /* MJDemoUITests */,
 				2D3274491D7812480013BDB1 /* Products */,
+				4CD7143DB5ABF3A44FAB4760 /* Pods */,
+				D71859975D5C13D97C92CC97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +111,12 @@
 			children = (
 				2D32744B1D7812480013BDB1 /* AppDelegate.swift */,
 				2D32744D1D7812480013BDB1 /* ViewController.swift */,
+				2D32747A1D782DBA0013BDB1 /* WOWRefreshHeader.swift */,
+				2D3274791D7828EA0013BDB1 /* MJDemo-Bridging-Header.h */,
 				2D32744F1D7812480013BDB1 /* Main.storyboard */,
 				2D3274521D7812480013BDB1 /* Assets.xcassets */,
 				2D3274541D7812480013BDB1 /* LaunchScreen.storyboard */,
+				2D32747C1D78308B0013BDB1 /* loadRefresh.gif */,
 				2D3274571D7812480013BDB1 /* Info.plist */,
 			);
 			path = MJDemo;
@@ -125,6 +140,23 @@
 			path = MJDemoUITests;
 			sourceTree = "<group>";
 		};
+		4CD7143DB5ABF3A44FAB4760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7145F7DD4580F1627EB69BE /* Pods-MJDemo.debug.xcconfig */,
+				A2ECC5D8B4EF57F7275659FE /* Pods-MJDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D71859975D5C13D97C92CC97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136DFC7B1F235CF263568387 /* Pods_MJDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3274701D7812480013BDB1 /* Build configuration list for PBXNativeTarget "MJDemo" */;
 			buildPhases = (
+				AB8C67AED75E9A27CE4F76C5 /* [CP] Check Pods Manifest.lock */,
 				2D3274441D7812480013BDB1 /* Sources */,
 				2D3274451D7812480013BDB1 /* Frameworks */,
 				2D3274461D7812480013BDB1 /* Resources */,
+				B3D012A49C77010936634156 /* [CP] Embed Pods Frameworks */,
+				B0702781ED834341A285CCAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +269,7 @@
 			files = (
 				2D3274561D7812480013BDB1 /* LaunchScreen.storyboard in Resources */,
 				2D3274531D7812480013BDB1 /* Assets.xcassets in Resources */,
+				2D32747D1D78308B0013BDB1 /* loadRefresh.gif in Resources */,
 				2D3274511D7812480013BDB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +290,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB8C67AED75E9A27CE4F76C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0702781ED834341A285CCAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJDemo/Pods-MJDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D012A49C77010936634156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJDemo/Pods-MJDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D3274441D7812480013BDB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +345,7 @@
 			files = (
 				2D32744E1D7812480013BDB1 /* ViewController.swift in Sources */,
 				2D32744C1D7812480013BDB1 /* AppDelegate.swift in Sources */,
+				2D32747B1D782DBA0013BDB1 /* WOWRefreshHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,23 +485,27 @@
 		};
 		2D3274711D7812480013BDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7145F7DD4580F1627EB69BE /* Pods-MJDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MJDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WOW.MJDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MJDemo/MJDemo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		2D3274721D7812480013BDB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2ECC5D8B4EF57F7275659FE /* Pods-MJDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MJDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WOW.MJDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MJDemo/MJDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +574,7 @@
 				2D3274721D7812480013BDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D3274731D7812480013BDB1 /* Build configuration list for PBXNativeTarget "MJDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +583,7 @@
 				2D3274751D7812480013BDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D3274761D7812480013BDB1 /* Build configuration list for PBXNativeTarget "MJDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +592,7 @@
 				2D3274781D7812480013BDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
