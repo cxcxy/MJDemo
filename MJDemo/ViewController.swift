@@ -33,10 +33,13 @@ class ViewController: UIViewController {
 
     func pullToRefresh()  {
         // 模拟刷新两秒结束
-        let time:NSTimeInterval = 2.0
-        let delay = dispatch_time(DISPATCH_TIME_NOW, Int64(time * Double(NSEC_PER_SEC)))
-        dispatch_after(delay, dispatch_get_main_queue()) { 
-            self.tableView.mj_header.endRefreshing()
+//        let time:NSTimeInterval = 2.0
+//        let delay = dispatch_time(DISPATCH_TIME_NOW, Int64(time * Double(NSEC_PER_SEC)))
+//        dispatch_after(delay, dispatch_get_main_queue()) { 
+//            self.tableView.mj_header.endRefreshing()
+//        }
+        delay(2.0) { 
+         self.tableView.mj_header.endRefreshing()
         }
     }
 
