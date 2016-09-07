@@ -1,4 +1,7 @@
 PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - MJRefresh (3.1.12)
   - SnapKit (0.30.0.beta2)
   - YYImage (1.0.3):
@@ -6,15 +9,17 @@ PODS:
   - YYImage/Core (1.0.3)
 
 DEPENDENCIES:
+  - FMDB
   - MJRefresh
   - SnapKit (~> 0.30.0.beta2)
   - YYImage
 
 SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SnapKit: c4bb32b1d3c5d18ff63bf95ffcbc599d2bab964c
   YYImage: 362f44ffba1fc498f2152060f3bb54ed84600981
 
-PODFILE CHECKSUM: 1198f6b54f741b6fe58e5d3325127416d3dc9083
+PODFILE CHECKSUM: 34a625adfae15bc2c29eec58f1e145abd5098900
 
 COCOAPODS: 1.0.1

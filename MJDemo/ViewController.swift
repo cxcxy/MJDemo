@@ -40,6 +40,32 @@ class ViewController: UIViewController {
     }
 
 }
+
+func insertStudent() {
+    let name = "aa"
+//    let age = "cc"
+    let sql = "INSERT INTO t_searchModel(searchStr)VALUES(?);"
+    
+    searchModel.shareInstance.db.executeUpdate(sql, withArgumentsInArray: [name])
+}
+func loadStudent() {
+    
+    let sql = "SELECT * FROM t_searchModel;"
+    
+    let resultSet = searchModel.shareInstance.db.executeQuery(sql, withArgumentsInArray: nil)
+    
+    while resultSet.next() {
+//        let id = resultSet.intForColumn("searchStr")
+        let name = resultSet.stringForColumn("searchStr")
+//        let age = resultSet.intForColumn("age")
+        
+        print("id = \(name)")
+    }
+}
+
+
+
+
 extension ViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
@@ -53,6 +79,14 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         }
         cell?.backgroundColor = UIColor.yellowColor()
         return cell!
+    }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.row == 0{
+            insertStudent()
+        }
+        if indexPath.row == 1 {
+            loadStudent()
+        }
     }
 }
 

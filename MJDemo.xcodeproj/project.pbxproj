@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D08177B1D7EC204009DB4C3 /* searchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D08177A1D7EC204009DB4C3 /* searchModel.swift */; };
 		2D32744C1D7812480013BDB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D32744B1D7812480013BDB1 /* AppDelegate.swift */; };
 		2D32744E1D7812480013BDB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D32744D1D7812480013BDB1 /* ViewController.swift */; };
 		2D3274511D7812480013BDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D32744F1D7812480013BDB1 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		136DFC7B1F235CF263568387 /* Pods_MJDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D08177A1D7EC204009DB4C3 /* searchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchModel.swift; sourceTree = "<group>"; };
 		2D3274481D7812480013BDB1 /* MJDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D32744B1D7812480013BDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D32744D1D7812480013BDB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				2D32744B1D7812480013BDB1 /* AppDelegate.swift */,
 				2D32744D1D7812480013BDB1 /* ViewController.swift */,
 				2D32747A1D782DBA0013BDB1 /* WOWRefreshHeader.swift */,
+				2D08177A1D7EC204009DB4C3 /* searchModel.swift */,
 				2D3274791D7828EA0013BDB1 /* MJDemo-Bridging-Header.h */,
 				2D32744F1D7812480013BDB1 /* Main.storyboard */,
 				2D3274521D7812480013BDB1 /* Assets.xcassets */,
@@ -346,6 +349,7 @@
 				2D32744E1D7812480013BDB1 /* ViewController.swift in Sources */,
 				2D32744C1D7812480013BDB1 /* AppDelegate.swift in Sources */,
 				2D32747B1D782DBA0013BDB1 /* WOWRefreshHeader.swift in Sources */,
+				2D08177B1D7EC204009DB4C3 /* searchModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
