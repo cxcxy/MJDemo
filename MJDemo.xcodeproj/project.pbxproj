@@ -17,6 +17,7 @@
 		2D32746C1D7812480013BDB1 /* MJDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D32746B1D7812480013BDB1 /* MJDemoUITests.swift */; };
 		2D32747B1D782DBA0013BDB1 /* WOWRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D32747A1D782DBA0013BDB1 /* WOWRefreshHeader.swift */; };
 		2D32747D1D78308B0013BDB1 /* loadRefresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D32747C1D78308B0013BDB1 /* loadRefresh.gif */; };
+		2D45AC421D79618A00EF3835 /* GCD-Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D45AC411D79618A00EF3835 /* GCD-Delay.swift */; };
 		8D30077B7C765972DA556ED8 /* Pods_MJDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136DFC7B1F235CF263568387 /* Pods_MJDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		2D3274791D7828EA0013BDB1 /* MJDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		2D32747A1D782DBA0013BDB1 /* WOWRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOWRefreshHeader.swift; sourceTree = "<group>"; };
 		2D32747C1D78308B0013BDB1 /* loadRefresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadRefresh.gif; sourceTree = "<group>"; };
+		2D45AC411D79618A00EF3835 /* GCD-Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GCD-Delay.swift"; sourceTree = "<group>"; };
 		A2ECC5D8B4EF57F7275659FE /* Pods-MJDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJDemo/Pods-MJDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F7145F7DD4580F1627EB69BE /* Pods-MJDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJDemo/Pods-MJDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 			children = (
 				2D32744B1D7812480013BDB1 /* AppDelegate.swift */,
 				2D32744D1D7812480013BDB1 /* ViewController.swift */,
+				2D45AC411D79618A00EF3835 /* GCD-Delay.swift */,
 				2D32747A1D782DBA0013BDB1 /* WOWRefreshHeader.swift */,
 				2D08177A1D7EC204009DB4C3 /* searchModel.swift */,
 				2D3274791D7828EA0013BDB1 /* MJDemo-Bridging-Header.h */,
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D45AC421D79618A00EF3835 /* GCD-Delay.swift in Sources */,
 				2D32744E1D7812480013BDB1 /* ViewController.swift in Sources */,
 				2D32744C1D7812480013BDB1 /* AppDelegate.swift in Sources */,
 				2D32747B1D782DBA0013BDB1 /* WOWRefreshHeader.swift in Sources */,
